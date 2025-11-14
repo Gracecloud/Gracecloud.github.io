@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜园小管家 - 近郊菜园租赁平台</title>
+    <link rel="stylesheet" href=".css">
+ 
+</head>
+<body>
+   <!-- 导航栏 -->
+<header>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>菜园小管家</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li class="dropdown">
+                    <a href="#project-service">项目介绍</a>
+                    <div class="dropdown-content">
+                        <a href="#features">功能特色</a>
+                        <a href="#garden">菜园租赁</a>
+                        <a href="#services">托管服务</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#online-experience">线上体验</a>
+                    <div class="dropdown-content">
+                        <a href="#farm">虚拟农场</a>
+                        <a href="#online-trusteeship">线上托管</a>
+                        <a href="#vegetable-delivery">蔬菜配送</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#activity-booking">活动预约</a>
+                    <div class="dropdown-content">
+                        <a href="#education">研学教育</a>
+                        <a href="#team-building">企业团建</a>
+                       
+                        <a href="#activities">特色活动</a>
+                         <a href="#experience">一日体验</a>
+                    </div>
+                </li>
+                <li><a href="#transport">交通服务</a></li>
+            </ul>
+            <div class="user-actions">
+                <button class="btn btn-login">登录</button>
+                <button class="btn btn-register">注册</button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <!-- 英雄区域 -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>菜园小管家 - 您的专属近郊菜园</h1>
+                <p>线上虚拟农场 + 线下实体菜园，体验种植乐趣，收获健康有机蔬菜</p>
+                <a href="#garden" class="btn btn-hero">立即租赁菜园</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特色 -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>平台特色功能</h2>
+                <p>结合线上互动与线下体验，打造全方位的农业休闲平台</p>
+            </div>
+            
+            <!-- 下拉触发按钮 -->
+            <div class="dropdown-trigger" id="dropdownTrigger">
+                <span>查看全部功能</span>
+                <i class="dropdown-icon">▼</i>
+            </div>
+            
+            <!-- 下拉内容容器 -->
+            <div class="feature-dropdown-content" id="dropdownContent">
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <img src="./image/虚拟农场.jpg" alt="虚拟农场">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">虚拟农场图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>虚拟农场</h3>
+                            <p>线上模拟种植，随时随地体验种植乐趣</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <div class="feature-img">
+                        <img src="./image/有机蔬菜.jpg" alt="有机蔬菜">
+                    </div>
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">有机蔬菜图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>有机蔬菜</h3>
+                            <p>亲自种植或委托种植，收获新鲜无农药的健康蔬菜</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <img src="./image/托管服务.jpg" alt="托管服务">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">托管服务图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>托管服务</h3>
+                            <p>专业团队代管菜园，忙碌时也能享受丰收喜悦</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <img src="./image/团建项目.jpg" alt="企业团建">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">企业团建图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>企业团建</h3>
+                            <p>定制化农耕团建活动，增强团队凝聚力，体验田园乐趣</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <img src="./image/农业科普课堂.jpg" alt="研学教育">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">研学教育图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>研学教育</h3>
+                            <p>专业农业知识讲解，培养孩子对自然的认知与兴趣</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="活动预约">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">活动预约图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>活动预约</h3>
+                            <p>丰富多彩的田园活动，一键预约，轻松参与</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="./image/交通预约.jpg" alt="交通预约">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">交通预约图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>交通预约</h3>
+                            <p>专线巴士接送，便捷到达农场，省心省力</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                             <img src="image/蔬菜配送.jpg" alt="蔬菜配送">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">蔬菜配送图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>蔬菜配送</h3>
+                            <p>新鲜采摘有机蔬菜，配送到家，享受健康生活</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="./image/一日体验.jpg" alt="一日体验">
+                            <div style="background-color: #e8f5e9; height: 100%; display: flex; align-items: center; justify-content: center; color: #2c5e1a; font-weight: bold;">一日体验图片</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>一日体验</h3>
+                            <p>单次农家乐体验，无需长期租赁，轻松享受田园生活</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+ <!-- 菜园租赁 -->
+    <section class="garden-rental" id="garden">
+        <div class="container">
+            <div class="section-title">
+                <h2>菜园租赁方案</h2>
+                <p>多种规格菜园，满足不同需求</p>
+            </div>
+            <div class="garden-cards">
+                <div class="garden-card">
+                    <div class="garden-img">
+                        <img src="./image/小型菜园.jpg" alt="小型菜园">
+                    </div>
+                    <div class="garden-content">
+                        <h3>小型菜园</h3>
+                        <div class="garden-price">
+                            <span class="price-option">¥ 299/季度</span>
+                            <span class="price-option">¥ 999/年</span>
+                        </div>
+                        <ul class="garden-features">
+                            <li>10平方米种植面积</li>
+                            <li>基础农具提供</li>
+                            <li>每月1次免费配送</li>
+                            <li>专业种植指导</li>
+                            <li>季节性种子提供</li>
+                        </ul>
+                        <button class="btn btn-rent">立即租赁</button>
+                    </div>
+                </div>
+                <div class="garden-card">
+                    <div class="garden-img">
+                        <img src="./image/中型菜园.jpg" alt="中型菜园">
+                    </div>
+                    <div class="garden-content">
+                        <h3>中型菜园</h3>
+                        <div class="garden-price">
+                            <span class="price-option">¥ 599/季度</span>
+                            <span class="price-option">¥ 1999/年</span>
+                        </div>
+                        <ul class="garden-features">
+                            <li>20平方米种植面积</li>
+                            <li>全套农具提供</li>
+                            <li>每月2次免费配送</li>
+                            <li>专业种植指导+定期维护</li>
+                            <li>有机肥料提供</li>
+                        </ul>
+                        <button class="btn btn-rent">立即租赁</button>
+                    </div>
+                </div>
+                <div class="garden-card">
+                    <div class="garden-img">
+                        <img src="./image/大型菜园.jpg" alt="大型菜园">
+                    </div>
+                    <div class="garden-content">
+                        <h3>大型菜园</h3>
+                        <div class="garden-price">
+                            <span class="price-option">¥ 899/季度</span>
+                            <span class="price-option">¥ 2999/年</span>
+                        </div>
+                        <ul class="garden-features">
+                            <li>30平方米种植面积</li>
+                            <li>全套农具+灌溉系统</li>
+                            <li>每月3次免费配送</li>
+                            <li>专业种植指导+全托管服务</li>
+                            <li>优先活动参与权</li>
+                        </ul>
+                        <button class="btn btn-rent">立即租赁</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- 托管服务 -->
+    <!-- 托管服务 -->
+<section class="services" id="services">
+    <div class="container">
+        <div class="section-title">
+            <h2>专业托管服务</h2>
+            <p>忙碌时也能享受丰收喜悦，专业团队为您打理菜园</p>
+        </div>
+        <div class="service-cards">
+            <!-- 基础托管 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="service-content">
+                    <h3>基础托管</h3>
+                    <div class="service-price">¥ 199/月</div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 每周1次浇水施肥</li>
+                        <li><i class="fas fa-check"></i> 基础病虫害防治</li>
+                        <li><i class="fas fa-check"></i> 生长状态拍照反馈</li>
+                        <li><i class="fas fa-check"></i> 收获提醒服务</li>
+                        <li><i class="fas fa-times"></i> 不包含蔬菜配送</li>
+                    </ul>
+                    <button class="btn btn-service">选择此方案</button>
+                </div>
+            </div>
+            
+            <!-- 半托管 -->
+            <div class="service-card featured">
+                <div class="service-badge">最受欢迎</div>
+                <div class="service-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="service-content">
+                    <h3>半托管</h3>
+                    <div class="service-price">¥ 299/月</div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 每周2次专业养护</li>
+                        <li><i class="fas fa-check"></i> 全面病虫害防治</li>
+                        <li><i class="fas fa-check"></i> 定期视频反馈</li>
+                        <li><i class="fas fa-check"></i> 每月1次蔬菜配送</li>
+                        <li><i class="fas fa-check"></i> 个性化种植建议</li>
+                    </ul>
+                    <button class="btn btn-service">选择此方案</button>
+                </div>
+            </div>
+            
+            <!-- 全托管 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <div class="service-content">
+                    <h3>全托管</h3>
+                    <div class="service-price">¥ 399/月</div>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 全程专业管理</li>
+                        <li><i class="fas fa-check"></i> 根据季节更换作物</li>
+                        <li><i class="fas fa-check"></i> 每周视频反馈</li>
+                        <li><i class="fas fa-check"></i> 每月2次蔬菜配送</li>
+                        <li><i class="fas fa-check"></i> 个性化种植方案</li>
+                    </ul>
+                    <button class="btn btn-service">选择此方案</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 虚拟农场 -->
+    <section class="virtual-farm" id="farm">
+        <div class="container">
+            <div class="section-title">
+                <h2>虚拟农场体验</h2>
+                <p>线上模拟种植，体验种植乐趣</p>
+            </div>
+            <div class="farm-container">
+                <div class="farm-demo">
+                    <div class="farm-grid">
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot planted">🌱</div>
+                        <div class="farm-plot planted">🌱</div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                        <div class="farm-plot"></div>
+                    </div>
+                    <div class="farm-controls">
+                        <button>播种</button>
+                        <button>浇水</button>
+                        <button>施肥</button>
+                        <button>收获</button>
+                    </div>
+                    <div class="steal-section">
+                        <h4><i class="fas fa-user-secret"></i> 偷菜游戏</h4>
+                        <p>访问好友的农场，可以"偷取"成熟的蔬菜！每天有3次偷菜机会，偷来的蔬菜可以兑换积分或实物奖励。</p>
+                        <button class="btn" style="margin-top: 10px;">去好友农场看看</button>
+                    </div>
+                </div>
+                <div class="farm-info">
+                    <h3>线上农场，虚拟菜园</h3>
+                    <p>通过我们的虚拟农场游戏，体验种植与收获的乐趣：</p>
+                    <p>• 线上播种、浇水、施肥</p>
+                    
+                    <p>• 收获季节提醒，不错过最佳采摘时机</p>
+                    <p>• 与好友互动，分享种植乐趣</p>
+                   
+                    
+                    <h4 style="margin-top: 30px;">游戏特色</h4>
+                    <p>• 丰富的作物种类：从常见蔬菜到特色作物</p>
+                    <p>• 成就系统：完成种植任务获得奖励</p>
+                    <p>• 排行榜：与好友比拼种植技能</p>
+                    <p>• 社交功能：访问好友农场，互帮互助</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- 线上托管服务 -->
+<section class="online-trusteeship" id="online-trusteeship">
+    <div class="container">
+        <div class="section-title">
+            <h2>线上托管服务</h2>
+            <p>远程掌控菜园状态，手机端实时跟进生长全流程</p>
+        </div>
+        <div class="trusteeship-cards">
+            <!-- 基础线上托管 -->
+            <div class="trusteeship-card">
+                <div class="trusteeship-icon">📱</div>
+                <div class="trusteeship-content">
+                    <h3>基础线上托管</h3>
+                    <div class="trusteeship-price">¥ 149/月</div>
+                    <ul class="trusteeship-features">
+                        <li>每日生长照片推送</li>
+                        <li>每周养护报告</li>
+                        <li>远程查看实时画面</li>
+                        <li>种植问题在线解答</li>
+                        <li>收获时间提醒</li>
+                    </ul>
+                    <button class="btn btn-trusteeship">立即办理</button>
+                </div>
+            </div>
+            <!-- 智能线上托管 -->
+            <div class="trusteeship-card featured">
+                <div class="trusteeship-badge">热门选择</div>
+                <div class="trusteeship-icon">🤖</div>
+                <div class="trusteeship-content">
+                    <h3>智能线上托管</h3>
+                    <div class="trusteeship-price">¥ 249/月</div>
+                    <ul class="trusteeship-features">
+                        <li>24小时实时监控</li>
+                        <li>每3天生长视频+数据报告</li>
+                        <li>远程下达种植指令</li>
+                        <li>个性化种植方案</li>
+                        <li>每月1次蔬菜保鲜配送</li>
+                    </ul>
+                    <button class="btn btn-trusteeship">立即办理</button>
+                </div>
+            </div>
+            <!-- 尊享线上托管 -->
+            <div class="trusteeship-card">
+                <div class="trusteeship-icon">💎</div>
+                <div class="trusteeship-content">
+                    <h3>尊享线上托管</h3>
+                    <div class="trusteeship-price">¥ 349/月</div>
+                    <ul class="trusteeship-features">
+                        <li>多机位+VR全景查看</li>
+                        <li>每日数据+专家点评</li>
+                        <li>专属农艺师1对1服务</li>
+                        <li>按需调整种植周期</li>
+                        <li>每月2次鲜蔬配送到家</li>
+                    </ul>
+                    <button class="btn btn-trusteeship">立即办理</button>
+                </div>
+            </div>
+        </div>
+        <!-- 线上托管优势说明 -->
+        <div class="trusteeship-advantages">
+            <h4>线上托管核心优势</h4>
+            <div class="advantages-list">
+                <div class="advantage-item">
+                    <i class="fas fa-eye"></i>
+                    <span>实时可视化：手机随时查看菜园动态，种植过程透明化</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>数据化管理：生长数据实时记录，科学追踪蔬菜生长周期</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-headset"></i>
+                    <span>专业支持：农艺师在线指导，解决种植过程中的各类问题</span>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-bolt"></i>
+                    <span>便捷高效：无需亲自到场，远程即可掌控种植全流程</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 蔬菜配送 -->
+<section class="vegetable-delivery" id="vegetable-delivery">
+    <div class="container">
+        <div class="section-title">
+            <h2>蔬菜配送服务</h2>
+            <p>新鲜采摘有机蔬菜，一键下单配送到家</p>
+        </div>
+        
+        <div class="delivery-form-container">
+            <form class="delivery-form" id="deliveryForm">
+                <!-- 基本信息 -->
+                <div class="form-section">
+                    <h3>基本信息</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">收货人姓名 *</label>
+                            <input type="text" id="name" name="name" required placeholder="请输入真实姓名">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">联系电话 *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="请输入有效手机号">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="region">所在区域 *</label>
+                            <select id="region" name="region" required>
+                                <option value="">请选择区域</option>
+                                <option value="金水区">金水区</option>
+                                <option value="中原区">中原区</option>
+                                <option value="二七区">二七区</option>
+                                <option value="管城区">管城区</option>
+                                <option value="惠济区">惠济区</option>
+                                <option value="郑东新区">郑东新区</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="community">所属小区</label>
+                            <input type="text" id="community" name="community" placeholder="请输入小区名称">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">详细配送地址 *</label>
+                        <input type="text" id="address" name="address" required placeholder="请输入楼栋号、单元号、门牌号">
+                    </div>
+                </div>
+
+                <!-- 配送选择 -->
+                <div class="form-section">
+                    <h3>配送选择</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="deliveryDate">配送日期 *</label>
+                            <input type="date" id="deliveryDate" name="deliveryDate" required min="">
+                        </div>
+                        <div class="form-group">
+                            <label for="deliveryTime">配送时段 *</label>
+                            <select id="deliveryTime" name="deliveryTime" required>
+                                <option value="">请选择时段</option>
+                                <option value="08:00-12:00">上午 8:00-12:00</option>
+                                <option value="12:00-14:00">中午 12:00-14:00</option>
+                                <option value="14:00-18:00">下午 14:00-18:00</option>
+                                <option value="18:00-21:00">晚上 18:00-21:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="deliveryType">配送类型 *</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="deliveryType" value="oneTime" checked> 单次配送
+                            </label>
+                            <label>
+                                <input type="radio" name="deliveryType" value="regular"> 定期配送
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group regular-delivery" style="display: none;">
+                        <label for="regularCycle">定期配送周期</label>
+                        <select id="regularCycle" name="regularCycle">
+                            <option value="weekly">每周1次</option>
+                            <option value="biweekly">每两周1次</option>
+                            <option value="monthly">每月2次</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 蔬菜选择 -->
+                <div class="form-section">
+                    <h3>选择蔬菜（可多选）</h3>
+                    <div class="vegetable-options">
+                        <div class="vegetable-option">
+                            <input type="checkbox" id="tomato" name="vegetables" value="有机番茄">
+                            <label for="tomato">
+                                <span class="vegetable-name">有机番茄</span>
+                                <span class="vegetable-price">¥12/500g</span>
+                                <input type="number" class="vegetable-quantity" name="tomatoQuantity" min="1" value="1" placeholder="数量">
+                            </label>
+                        </div>
+                        <div class="vegetable-option">
+                            <input type="checkbox" id="cucumber" name="vegetables" value="新鲜黄瓜">
+                            <label for="cucumber">
+                                <span class="vegetable-name">新鲜黄瓜</span>
+                                <span class="vegetable-price">¥8/500g</span>
+                                <input type="number" class="vegetable-quantity" name="cucumberQuantity" min="1" value="1" placeholder="数量">
+                            </label>
+                        </div>
+                        <div class="vegetable-option">
+                            <input type="checkbox" id="lettuce" name="vegetables" value="绿色生菜">
+                            <label for="lettuce">
+                                <span class="vegetable-name">绿色生菜</span>
+                                <span class="vegetable-price">¥10/500g</span>
+                                <input type="number" class="vegetable-quantity" name="lettuceQuantity" min="1" value="1" placeholder="数量">
+                            </label>
+                        </div>
+                        <div class="vegetable-option">
+                            <input type="checkbox" id="carrot" name="vegetables" value="胡萝卜">
+                            <label for="carrot">
+                                <span class="vegetable-name">胡萝卜</span>
+                                <span class="vegetable-price">¥6/500g</span>
+                                <input type="number" class="vegetable-quantity" name="carrotQuantity" min="1" value="1" placeholder="数量">
+                            </label>
+                        </div>
+                        <div class="vegetable-option">
+                            <input type="checkbox" id="potato" name="vegetables" value="土豆">
+                            <label for="potato">
+                                <span class="vegetable-name">土豆</span>
+                                <span class="vegetable-price">¥5/500g</span>
+                                <input type="number" class="vegetable-quantity" name="potatoQuantity" min="1" value="1" placeholder="数量">
+                            </label>
+                        </div>
+                        <div class="vegetable-option">
+                            <input type="checkbox" id="broccoli" name="vegetables" value="西兰花">
+                            <label for="broccoli">
+                                <span class="vegetable-name">西兰花</span>
+                                <span class="vegetable-price">¥15/500g</span>
+                                <input type="number" class="vegetable-quantity" name="broccoliQuantity" min="1" value="1" placeholder="数量">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="customVegetable">其他需求</label>
+                        <input type="text" id="customVegetable" name="customVegetable" placeholder="如需其他蔬菜，可在此说明（选填）">
+                    </div>
+                </div>
+
+                <!-- 包装与备注 -->
+                <div class="form-section">
+                    <h3>包装与备注</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="packaging">包装类型</label>
+                            <select id="packaging" name="packaging">
+                                <option value="regular">普通包装（免费）</option>
+                                <option value="fresh">保鲜包装（+¥5）</option>
+                                <option value="gift">礼品包装（+¥10）</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="payment">支付方式 *</label>
+                            <select id="payment" name="payment" required>
+                                <option value="">请选择支付方式</option>
+                                <option value="wechat">微信支付</option>
+                                <option value="alipay">支付宝</option>
+                                <option value="cash">货到付款</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">备注信息</label>
+                        <textarea id="notes" name="notes" rows="3" placeholder="如有特殊要求（如蔬菜成熟度、无接触配送等），请在此说明"></textarea>
+                    </div>
+                </div>
+
+                <!-- 提交按钮 -->
+                <div class="form-actions">
+                    <button type="reset" class="btn btn-reset">重置表单</button>
+                    <button type="submit" class="btn btn-submit">
+                        <i class="fas fa-paper-plane"></i> 提交订单
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- 配送说明 -->
+        <div class="delivery-info">
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <div class="info-content">
+                    <h4>配送时间</h4>
+                    <p>上午订单14:00前送达，下午订单18:00前送达，晚上订单21:00前送达</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info-content">
+                    <h4>配送范围</h4>
+                    <p>郑州市金水区、中原区、二七区、管城区、惠济区、郑东新区（偏远区域可咨询客服）</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-truck"></i>
+                <div class="info-content">
+                    <h4>配送费用</h4>
+                    <p>订单满¥50免配送费，不满¥50收取¥8配送费，定期配送用户享永久免邮</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-shield-alt"></i>
+                <div class="info-content">
+                    <h4>售后保障</h4>
+                    <p>收到蔬菜24小时内，如有损坏、不新鲜等问题，可联系客服退换货</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+    <!-- 研学教育 -->
+    <section class="education" id="education">
+    <div class="container">
+        <div class="section-title">
+            <h2>研学教育</h2>
+            <p>专业农业知识讲解，培养孩子对自然的认知与兴趣</p>
+        </div>
+        <div class="education-cards">
+            <!-- 农业科普课堂 -->
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <div class="education-content">
+                    <h3>农业科普课堂</h3>
+                    <div class="education-tags">
+                        <span class="tag">知识学习</span>
+                        <span class="tag">动手实践</span>
+                        <span class="tag">科学探索</span>
+                    </div>
+                    <ul class="education-features">
+                        <li><i class="fas fa-seedling"></i> 专业农艺师讲解农业知识</li>
+                        <li><i class="fas fa-cogs"></i> 了解现代农业技术</li>
+                        <li><i class="fas fa-recycle"></i> 培养环保意识</li>
+                        <li><i class="fas fa-hands"></i> 动手实践环节</li>
+                    </ul>
+                    <div class="education-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>2小时课程</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                            
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>周末开课</span>
+                        </div>
+                    </div>
+                    <div class="education-price">¥ 39/人</div>
+                    <button class="btn btn-education">立即预约</button>
+                </div>
+            </div>
+            
+            <!-- 生态循环系统 -->
+            <div class="education-card featured">
+                <div class="education-badge">热门课程</div>
+                <div class="education-icon">
+                    <i class="fas fa-infinity"></i>
+                </div>
+                <div class="education-content">
+                    <h3>生态循环系统</h3>
+                    <div class="education-tags">
+                        <span class="tag">生态观察</span>
+                        <span class="tag">自然探索</span>
+                        <span class="tag">动手制作</span>
+                    </div>
+                    <ul class="education-features">
+                        <li><i class="fas fa-leaf"></i> 了解自然生态循环</li>
+                        <li><i class="fas fa-bug"></i> 观察昆虫与植物的关系</li>
+                        <li><i class="fas fa-globe-americas"></i> 学习可持续发展理念</li>
+                        <li><i class="fas fa-vial"></i> 制作小型生态瓶</li>
+                    </ul>
+                    <div class="education-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>2.5小时课程</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                         
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>周末开课</span>
+                        </div>
+                    </div>
+                    <div class="education-price">¥ 59/人</div>
+                    <button class="btn btn-education">立即预约</button>
+                </div>
+            </div>
+            
+            <!-- 季节农耕体验 -->
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="education-content">
+                    <h3>季节农耕体验</h3>
+                    <div class="education-tags">
+                        <span class="tag">季节体验</span>
+                        <span class="tag">传统文化</span>
+                        <span class="tag">农事实践</span>
+                    </div>
+                    <ul class="education-features">
+                        <li><i class="fas fa-cloud-sun"></i> 了解四季农作物变化</li>
+                        <li><i class="fas fa-book-open"></i> 学习传统农事节气</li>
+                        <li><i class="fas fa-tractor"></i> 体验不同季节农活</li>
+                        <li><i class="fas fa-mortar-pestle"></i> 制作季节特色农产品</li>
+                    </ul>
+                    <div class="education-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>3小时课程</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                           
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>按季节开课</span>
+                        </div>
+                    </div>
+                    <div class="education-price">¥ 69/人</div>
+                    <button class="btn btn-education">立即预约</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 企业团建 -->
+<section class="activities" id="team-building">
+    <div class="container">
+        <div class="section-title">
+            <h2>企业团建</h2>
+            <p>在田园协作中凝聚团队，在自然体验中放松身心</p>
+        </div>
+
+        <div class="activity-cards">
+            <!-- 农耕协作赛 -->
+            <div class="activity-card">
+                <div class="activity-img">
+                    <img src="./image/团队农耕竞赛.jpg" alt="农耕协作赛">
+                </div>
+                <div class="activity-content">
+                    <h3>团队农耕竞赛</h3>
+                   
+                    <ul class="garden-features">
+                        <li>分组完成种植任务</li>
+                        <li>团队配合挑战环节</li>
+                        <li>成果展示与表彰</li>
+                    </ul>
+                    <div class="activity-price">¥ 19/人起</div>
+                    <button class="btn btn-book">咨询方案</button>
+                </div>
+            </div>
+
+            <!-- 田园拓展日 -->
+            <div class="activity-card">
+                <div class="activity-img">
+                    <img src="./image/农场主题派对.jpg" alt="田园拓展日">
+                </div>
+                <div class="activity-content">
+                    <h3>农场主题派对</h3>
+                    
+                    <ul class="garden-features">
+                        <li>农耕技能体验</li>
+                        <li>团队信任小游戏</li>
+                        <li>田园烧烤聚餐</li>
+                    </ul>
+                    <div class="activity-price">¥ 19/人起</div>
+                    <button class="btn btn-book">咨询方案</button>
+                </div>
+            </div>
+
+            <!-- 企业专属菜园 -->
+            <div class="activity-card">
+                <div class="activity-img">
+                    <img src="./image/企业专属菜园.jpg" alt="企业专属菜园">
+                </div>
+                <div class="activity-content">
+                    <h3>企业专属菜园</h3>
+                  
+                    <ul class="garden-features">
+                        <li>定制企业标识菜园</li>
+                        <li>定期团建活动场地</li>
+                        <li>新鲜蔬菜配送服务</li>
+                    </ul>
+                    <div class="activity-price">¥ 1999/年起</div>
+                    <button class="btn btn-book">咨询方案</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- 活动预约 -->
+    <section class="activities" id="activities">
+        <div class="container">
+            <div class="section-title">
+                <h2>特色活动</h2>
+                <p>丰富多彩的田园活动，一键预约，轻松参与</p>
+            </div>
+            <div class="activity-cards">
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="./image/蔬菜采摘节.jpg" alt="蔬菜采摘节">
+                    </div>
+                    <div class="activity-content">
+                        <h3>蔬菜采摘节</h3>
+                        <ul class="garden-features">
+                            <li>体验丰收的喜悦</li>
+                            <li>学习蔬菜采摘技巧</li>
+                            <li>了解不同蔬菜营养价值</li>
+                            <li>现场烹饪品尝</li>
+                        </ul>
+                        <div class="activity-price">¥ 69/家庭</div>
+                        <button class="btn btn-book">立即预约</button>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="./image/蔬菜鉴赏大赛.jpg" alt="蔬菜鉴赏大赛">
+                    </div>
+                    <div class="activity-content">
+                        <h3>蔬菜鉴赏大赛</h3>
+                        <ul class="garden-features">
+                            <li>认识各类特色蔬菜</li>
+                            <li>学习蔬菜品质鉴别</li>
+                            <li>参与蔬菜评选投票</li>
+                            <li>赢取特色农产品奖励</li>
+                        </ul>
+                        <div class="activity-price">¥ 39/人</div>
+                        <button class="btn btn-book">立即预约</button>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="./image/农家美食制作.jpg" alt="农家美食制作">
+                    </div>
+                    <div class="activity-content">
+                        <h3>农家美食制作</h3>
+                        <ul class="garden-features">
+                            <li>学习传统农家菜制作</li>
+                            <li>使用新鲜采摘食材</li>
+                            <li>体验土灶烹饪乐趣</li>
+                            <li>品尝自制农家美食</li>
+                        </ul>
+                        <div class="activity-price">¥ 89/人</div>
+                        <button class="btn btn-book">立即预约</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- 一日体验 -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>一日体验</h2>
+                <p>单次农家乐体验，无需长期租赁，轻松享受田园生活</p>
+            </div>
+            <div class="activity-cards">
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="./image/采摘体验.jpg" alt="采摘体验">
+                    </div>
+                    <div class="activity-content">
+                        <h3>蔬菜采摘体验</h3>
+                        <ul class="garden-features">
+                            <li>2小时自由采摘</li>
+                            <li>可带走3斤自采蔬菜</li>
+                            <li>农具使用指导</li>
+                            <li>农场导览讲解</li>
+                        </ul>
+                        <div class="activity-price">¥ 79/人</div>
+                        <button class="btn btn-book">立即预约</button>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="./image/农家美食制作.jpg" alt="农家美食">
+                    </div>
+                    <div class="activity-content">
+                        <h3>农家美食体验</h3>
+                        <ul class="garden-features">
+                            <li>学习制作2道农家菜</li>
+                            <li>使用农场新鲜食材</li>
+                            <li>体验土灶烹饪</li>
+                            <li>享用自制午餐</li>
+                        </ul>
+                        <div class="activity-price">¥ 129/人</div>
+                        <button class="btn btn-book">立即预约</button>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img">
+                        <img src="./image/亲子种植体验.jpg" alt="亲子农耕">
+                    </div>
+                    <div class="activity-content">
+                        <h3>亲子农耕体验</h3>
+                        <ul class="garden-features">
+                            <li>亲子共同参与种植</li>
+                            <li>学习植物生长知识</li>
+                            <li>体验简单农活</li>
+                            <li>带走亲手种植的幼苗</li>
+                        </ul>
+                        <div class="activity-price">¥ 99/家庭</div>
+                        <button class="btn btn-book">立即预约</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- 交通预约 -->
+  <section class="transport" id="transport">
+        <div class="container">
+            <div class="section-title">
+                <h2>交通预约</h2>
+                <p>专线巴士接送，便捷到达农场，省心省力</p>
+            </div>
+            <div class="booking-form">
+                <form>
+                    <div class="form-group">
+                        <label for="community">请选择您所在的小区</label>
+                        <select id="community" class="form-control" required>
+                            <option value="">-- 请选择小区 --</option>
+                            <option value="community1">金水区 - 绿城百合小区</option>
+                            <option value="community2">中原区 - 万科城</option>
+                            <option value="community3">二七区 - 正商蓝钻</option>
+                            <option value="community4">管城区 - 富田太阳城</option>
+                            <option value="community5">惠济区 - 建业壹号城邦</option>
+                            <option value="community6">郑东新区 - 绿地原盛国际</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">选择日期</label>
+                            <input type="date" id="date" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="time">选择时间</label>
+                            <select id="time" class="form-control" required>
+                                <option value="">-- 请选择时间 --</option>
+                                <option value="morning">上午 8:00 - 9:00</option>
+                                <option value="midmorning">上午 9:30 - 10:30</option>
+                                <option value="afternoon">下午 2:00 - 3:00</option>
+                                <option value="midafternoon">下午 3:30 - 4:30</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="passengers">乘车人数</label>
+                        <input type="number" id="passengers" class="form-control" min="1" max="10" value="1" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">备注信息</label>
+                        <textarea id="notes" class="form-control" rows="3" placeholder="如有特殊需求，请在此说明"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn" style="width: 100%;">提交预约</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- 品牌介绍 -->
+                <div class="footer-column">
+                    <h3>都市田园乐</h3>
+                    <p>线上虚拟农场与线下实体菜园相结合，提供全方位农业休闲体验。</p>
+                </div>
+                
+                <!-- 快速链接 -->
+                <div class="footer-column">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#features">功能特色</a></li>
+                        <li><a href="#farm">虚拟农场</a></li>
+                        <li><a href="#garden">菜园租赁</a></li>
+                        <li><a href="#services">托管服务</a></li>
+                        <li><a href="#education">研学教育</a></li>
+                        <li><a href="#team-building">企业团建</a></li>
+                        <li><a href="#activities">活动预约</a></li>
+                       
+                        <li><a href="#experience">一日体验</a></li>
+                         <li><a href="#transport">交通预约</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 服务支持 -->
+                <div class="footer-column">
+                    <h3>服务支持</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">用户协议</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 联系我们 -->
+                <div class="footer-column">
+                    <h3>联系我们</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> 400-123-4567</li>
+                        <li><i class="fas fa-envelope"></i> service@cityfarm.com</li>
+                        <li><i class="fas fa-map-marker"></i> 郑州市金水区</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 都市田园乐 - 近郊菜园租赁平台 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 简单的虚拟农场交互
+
+      // 特色功能下拉逻辑（替换原代码）
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdownTrigger = document.getElementById('dropdownTrigger');
+    const dropdownContent = document.getElementById('dropdownContent');
+    
+    if (dropdownTrigger && dropdownContent) {
+        dropdownTrigger.addEventListener('click', function() {
+            // 切换 show 类（对应修改后的 feature-dropdown-content）
+            dropdownContent.classList.toggle('show');
+            dropdownTrigger.classList.toggle('active');
+            
+            // 更新按钮文本
+            const buttonText = dropdownTrigger.querySelector('span');
+            if (dropdownContent.classList.contains('show')) {
+                buttonText.textContent = '收起功能列表';
+            } else {
+                buttonText.textContent = '查看全部功能';
+            }
+        });
+        
+        // 点击页面其他地方收起下拉（新增，提升体验）
+        document.addEventListener('click', function(e) {
+            if (!dropdownTrigger.contains(e.target) && !dropdownContent.contains(e.target)) {
+                dropdownContent.classList.remove('show');
+                dropdownTrigger.classList.remove('active');
+                dropdownTrigger.querySelector('span').textContent = '查看全部功能';
+            }
+        });
+    }
+
+    // 原有的其他 JS 逻辑（虚拟农场、日期设置等）保持不变...
+}); 
+ </script>
+</body>
+</html>
